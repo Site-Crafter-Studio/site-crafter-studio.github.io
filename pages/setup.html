@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../setup/setup.css">
+<meta charset=”UTF-8”>
+<title>Set Up | Site Crafter Studio</title> <!--what appears in the browser window or tab-->
+</head>
+    
+</head>    
+<body>
+    <div class="topnav">
+        <a href="https://site-crafter-studio.github.io/pages/index.html">Home</a>
+        <a class="active" href="#setup">Set Up</a>
+        <a href="https://site-crafter-studio.github.io/pages/customize.html">Customize</a>
+    </div>
+    <div class="center"> <!--main div start-->
+      <h1>Set Up</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin libero.</p>
+        <br><hr><br>
+
+        <h2>Download the starter files</h2><br>
+        <p>
+          1. Go to <a href="ttps://github.com/Site-Crafter-Studio/templates">this repository</a> with the template files and click the green <span class="bolded">Code</span> button. <br>
+          2. Click Download ZIP and drag it into your desktop for now. <br></br>
+            <img src="../setup/setup.pics/downloadzip.png" alt="download zip" style="width:75%"><br></br>
+          3. Double click on <span class="bolded">templates-main.zip</span> to uncompress the folder on your desktop.<br>
+          4. Open the uncompressed <span class="italic">templates-main</span> folder and make sure it contains the correct 4 folders: index, pages, projects, and work. <br></br></p><hr><br>
+
+        <h2>Create a GitHub account and a new repository</h2><br>
+        <p>If you already have a GitHub account, skip to step #4. <br></br>
+          1. Go to <a href="https://github.com/">github.com</a> and click <span class="bolded">Sign Up</span>. <br>
+          2. Enter your email, create a strong password, and enter a username.
+            <div class ="note">&#9888; Consider using your personal email, rather than a University-given email that will eventually expire.<br></br>&#9888; The username you choose will appear in your website’s URL.</div><br><p>
+          3. Complete account verification steps.<br>
+          4. Click <span class="bolded">Create repository</span>. <br>
+            <div class ="note">&#9432;The repository will store all your project’s files and each file’s revision history.</div><br><p>
+          5. In the repository name field, enter <code>[yourusername].github.io</code>, where you replace <code>[yourusername]</code> with the username you chose during account setup. For example:<br></br>
+            <img src="../setup/setup.pics/username.png" alt="example username" style="width:45%"><br></br>
+          6. Ensure the privacy settings are set to <span class="bolded">Public</span>. <br>
+          7. In the “Initialize this repository with:” section, click <span class="bolded">Add a README file</span>.<br>
+          8. Click <span class="bolded">Create repository</span>.<br>
+          9. Click <span class="bolded">Add file</span> and <span class="bolded">Upload file</span>. <br></br>
+            <img src="../setup/setup.pics/uploadfiles.png" alt="upload files" style="width:32%"><br></br>
+          10. Drag and drop the 4 folders inside of the templates-main folder on your desktop. <br>
+          <div class ="note">&#9888; Do not drag and drop the entire <span class="italic">templates-main</span> folder, but rather the 4 folders it contains. There should be a total of 16 files that are uploaded.</div><br><p>
+          11. Scroll to the bottom, add a commit message, like “blank templates,” and click <span class="bolded">Commit changes</span>. <br>
+          <img src="../setup/setup.pics/firstcommitmsg.png" alt="commit msg" style="width:75%"><br></br></p><hr><br>
+
+        <h2>Install Visual Studio Code</h2>
+        <p>1. Go to <a href="https://code.visualstudio.com/download">Download Visual Studio Code</a> and install the correct version of Visual Studio Code (VSCode) for your system.<br>
+          2. Open the VSCode application.<br>
+          <img src="../setup/setup.pics/vscicon.png" alt="vscode app" style="width:16%"><br></p><hr><br>
+        
+        <h2>Clone the repository</h2>
+        <p>1. Go back to your repository’s home page in GitHub. <br>
+          2. Click the green <span class="bolded">Code</span> button and copy the HTTPS address to your clipboard. 
+          <img src="../setup/setup.pics/clone.png" alt="clone" style="width:60%"><br>
+          3. In the Visual Studio Code application, create and open a new terminal.<br>
+          <div class ="note">&#9432; <span class="bolded">Terminal</span> > <span class="bolded">New Terminal</span> or use the command palette with <span class="bolded">cmd + shift + P</span> and type/select the option <span class="bolded">Terminal: Create New Terminal.</span></div><br><p>
+          4. Enter <code>cd Desktop</code> and hit return.<br>
+          5. Enter <code>git clone</code>, paste the HTTPS address from GitHub, and hit return.<br>
+          <div class ="note">&#9432; <code>git clone https://github.com/{your-username}/{your-username}.github.io.git</code></div><p><br>
+          6. Authenticate to your GitHub account with your username and password. VSCode may open a window in your browser to further authorize your account.<br>
+          <div class ="note">&#9432; Now your GitHub repository is stored locally on your machine on your desktop and all changes will be saved to this location. You should see a new folder in your Desktop called <span class="italic">{your-username}.github.io.</span></div><br><p>
+          7. Go back to Visual Studio Code and click <span class="bolded">File</span> > <span class="bolded">Open</span>. Select the new folder (the clone of your repository) on your desktop. <br>
+          <div class ="note">&#9432; Now you should see the 4 folders (index, pages, projects, and work) and a <span class="italic">README.md</span> file in the Explorer menu on the left-hand side of the screen. The right-hand side of the screen is where you will be editing the files.</div><br></p><hr><br>
+
+        <h2>Push an update to GitHub</h2>
+        <p>1. Open the <span class="bolded">README.md</span> file from the Explorer menu on the left-hand side of the screen.<br>
+          2. Replace the text with the following: <br>
+          <code>[My Website](https://{your-username}.github.io/pages/index.html)</code><br>
+          <div class ="note">&#9432; Your README file is written in Markdown. The Markdown syntax for adding a link is [text](hyperlink).</div><br><p>
+          3. Save the file by clicking <span class="bolded">File</span> > <span class="bolded">Save.</span><br>
+          4. Click on the <span class="bolded">Source Control</span> widget on the left-hand side of the screen. It will show that the README.md file has been changed. <br>
+          5. Add a commit message like “update readme,” and click the blue <span class="bolded">Commit</span> button.<br></br>
+          <img src="../setup/setup.pics/commitchanges.png" alt="commit" style="width:28%"><br></br>
+          6. Push the changes to your GitHub repository by clicking the blue <span class="bolded">&#8593;</span> button. Don’t worry about adding a message here.<br><br>
+          <img src="../setup/setup.pics/pushchanges.png" alt="push" style="width:28%"><br></br>
+          7. Click <span class="bolded">OK, Don’t Show Again</span> if a popup window, like this, shows up: <br></br>
+          <img src="../setup/setup.pics/popup.png" alt="popup window" style="width:28%"><br></br>
+          8. Go back to your repository’s home page on GitHub. You may need to refresh the page. <br>
+          9. Your repository has been updated with the most recent changes you committed from Visual Studio Code. You can check the status of your latest commit and view all of your past commits here. <br></br>
+          <img src="../setup/setup.pics/githubcommits.png" alt="popup window" style="width:75%"><br></br>
+          10. Click on the blue "<span class="italic">My Website</span>" link in the README section. <br>
+          <img src="../setup/setup.pics/mywebsitereadme.png" alt="readme link" style="width:24%"><br>
+          11. If you see this page, congratulations! You have successfully completed the Set Up steps. Switch between the About, Projects, and Work Experience tabs in the top navigation bar to view the different pages. This is what your website looks like with no customization or stylization (pretty boring, right?). Now let’s move on to the fun stuff! <br></br>
+          <img src="../setup/setup.pics/blanksite.png" alt="blank site" style="width:90%"><br></br>
+          12. <a href="https://site-crafter-studio.github.io/pages/customize.html">Start customizing./a><br>
+
+        </p></p></p></p></p></p>
+        </div> <!--main div end-->
+    </body>
+    </html>

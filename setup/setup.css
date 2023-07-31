@@ -96,17 +96,17 @@ html, body {
   width: 100%;
   padding: 0px 0px;
   margin: 0px auto 25px auto;
-  background: url(projects.pics/background.png) center center fixed no-repeat;
+  /* background: url(projects.pics/background.png) center center fixed no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
 }
 
 .center {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: #ffffff;
-	opacity: .65;
+ 	/* background: #ffffff;
+	opacity: .65; */
 	text-align: left;
 }
 
@@ -131,7 +131,7 @@ h1 {
 h2 {
 	font-family: helvetica, sans-serif;
 	font-weight: 300;
-	font-style: italic;	
+	font-style: normal;	
 	font-size: 2.0em;
 	text-align: left;
     line-height: 1.6;
@@ -146,6 +146,33 @@ p {
 	text-align: left;
     line-height: 1.6;
     color: black;
+}
+
+.bolded { font-weight: bold; }
+
+.italic { font-style: italic; }
+
+code {
+	font-family: Consolas,"courier new";
+	color: black;
+	border: #333;
+	/* background-color: #3498db; */
+	padding: 3px;
+	font-size: 100%;
+}
+
+.note {
+	font-family: helvetica, sans-serif;
+	font-weight: 199;
+	font-style: normal;	
+	font-size: 1.0em;
+	background-color: #f0f7fb;
+	background-position: 9px 0px;
+	background-repeat: no-repeat;
+	border-left: solid 4px #3498db;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 16px 20px;
 }
     
 nav{
@@ -174,9 +201,9 @@ nav a{
 }
 
 a{
-	color: black;
+	color: #3498db;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 a:hover{
