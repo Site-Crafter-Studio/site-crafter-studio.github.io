@@ -161,7 +161,20 @@ code {
 	font-size: 100%;
 }
 
-.note {
+.noter {
+	font-family: helvetica, sans-serif;
+	font-weight: 220;
+	font-style: normal;	
+	font-size: 1.1em;
+	background-color: #f0f7fb;
+	background-position: 9px 0px;
+	background-repeat: no-repeat;
+	border-left: solid 6px #d54242;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 16px 20px;
+}
+.noteb {
 	font-family: helvetica, sans-serif;
 	font-weight: 220;
 	font-style: normal;	
@@ -174,7 +187,19 @@ code {
 	overflow: hidden;
 	padding: 16px 20px;
 }
-    
+.noteg {
+	font-family: helvetica, sans-serif;
+	font-weight: 220;
+	font-style: normal;	
+	font-size: 1.1em;
+	background-color: #f0f7fb;
+	background-position: 9px 0px;
+	background-repeat: no-repeat;
+	border-left: solid 6px #1ccd60;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 16px 20px;
+}
 nav{
 	font-family: helvetica, sans-serif;
 	font-weight: 500;
@@ -272,6 +297,8 @@ a:hover{
 	background-color: #ffffff;
 	display: none;
 	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.6s ease-out;
   }
   .accordion:after {
 	content: '\02795'; /* Unicode character for "plus" sign (+) */
