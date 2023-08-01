@@ -113,7 +113,8 @@ html, body {
    
 #logo {
     margin-bottom: 16px;
-	text-align: center;
+	justify-content: right;
+	/* border-right: 5px; */
 }
 
 h1 {
