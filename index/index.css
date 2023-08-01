@@ -209,8 +209,7 @@ nav{
     color: black;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-	border: solid black;
-	border-width: 1px 0;
+	border: none;
 	text-align: center;
 	margin-top: 2em;
 }  
