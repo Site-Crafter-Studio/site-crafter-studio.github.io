@@ -19,19 +19,89 @@
     </div>
     <div class="center">
       <h1>Stage 2: Customize<br><img src="../stage2/stage2-media/scslogo.png" alt="logo" style="width:30%"></h1>
-        <p></p><br><hr><br>
+        <p><span class="bolded">Customize</span> will guide you through adding your own content to your website. Each page has an HTML page. HTML stands for Hypertext Markup Language and it is the standard language that defines the content and structure of web pages. All of your content that you write lives in these <span class="italic">".html"</span> files. HTML is used to create content and CSS is used to style that content. You will edit the CSS in Stage 3 of this tutorial, <span class="bolded">Stylize</span>.
+        </p><br><hr><br>
 
         <button class="accordion">&#10122; Understand the folder structure</button></button>
         <div class="panel">
-          <p></p>
+          <p>Before you begin editing the HTML, it’s important to understand how the folder structure of your project works. Each page on your website has its own folder that contains the HTML file, a CSS file, and a media folder for the page’s images or videos. You’ll learn more about CSS in the next stage of this tutorial, so don’t worry about this yet.</p>
+          <br>
+          <img src="../stage2/stage2-media/folderstructure.jpeg" alt="folder structure" style="width:50%">
+          <br>
+          <p>The HTML page is what you actually visit in a web browser. Think of the folders as a nested structure. Since index.html is “nested” under the pages folder, the URL for the index page of your website will be: <code>https://{your-username}.github.io/index/index.html</code>.</p>
+          <br>
         </div>
 
-        <button class="accordion">&#10123; Change pages</button></button>
+        <button class="accordion">&#10123; HTML tags</button></button>
         <div class="panel">
-          <p></p>
-        </div>
+          <p><table>
+            <tr>
+              <td><span class="bolded">Tag</span></td>
+              <td><span class="bolded">Meaning</span></td>
+            </tr>
+            <tr>
+              <td><code>&lt;!--... ...--&gt;</code></td>
+              <td>comment <span class="italic">(will not appear on the web page output)</span></td>
+            </tr>
+            <tr>
+              <td><code>&lt;!DOCTYPEHTML&gt;</code></td>
+              <td>document type</td>
+            </tr>
+            <tr>
+              <td><code>&lt;meta charset="UTF-8"&gt;</code></td>
+              <td>character encoding <span class="italic">(don't worry about this)</span></td>
+            </tr>
+            <tr>
+              <td><code>&lt;a&gt; &lt;/a&gt;</code></td>
+              <td>hyperlink<br>ex: &lt;a href=”<code>URL LINK HERE”&gt;</code></a></td>
+            </tr>
+            <tr>
+              <td><code>&lt;body&gt; &lt;/body&gt;</code></td>
+              <td>text body</td>
+            </tr>
+            <tr>
+              <td><code>&lt;br&gt;</code></td>
+              <td>single line break</td>
+            </tr>
+            <tr>
+              <td><code>&lt;code&gt; &lt;/code&gt;</code></td>
+              <td>code line</td>
+            </tr>
+            <tr>
+              <td><code>&lt;head&gt;</code></td>
+              <td>document header</td>
+            </tr>
+            <tr>
+              <td><code>&lt;html&gt;</code></td>
+              <td>root of html</td>
+            </tr>
+            <tr>
+              <td><code>&lt;div&gt; &lt;/div&gt;</code></td>
+              <td>divider section</td>
+            </tr>
+            <tr>
+              <td><code>&lt;h1&gt; &lt;/h1&gt;<br>&lt;h2&gt; &lt;/h2&gt;</code></td>
+              <td>headers</td>
+            </tr>
+            <tr>
+              <td><code>&lt;p&gt; &lt;/p&gt;</code></td>
+              <td>paragraph</td>
+            </tr>
+            <tr>
+              <td><code>&lt;img&gt; &lt;/img&gt;</code></td>
+              <td>image<br>
+                ex: &lt;img src=”stage1.media/image.png” alt=”alternative text” style=”width=100%”&gt;&lt;/img&gt;
+              </td>
+            </tr>
+          </table></p>
+          <br><br>
+        <div class ="noteb">The image source, or “src,” references the location of the image in your project’s folder structure. For example, in <span class="italic">”stage1.media/image.png,”</span> this means the image is inside the <span class="italic">“stage1.media”</span> folder. </div>
+        <br>
+        <div class ="noteb">HTML-supported image types include PNG (.png), JPEG (.jpg or .jpeg), GIF (.gif), SVG (.svg), ICO (.ico or .cur), and APNG (.apng).</div>
+        <br>
+      </div>
         
-        <button class="accordion">&#10124; Add pages</button></button>
+        <button class="accordion">&#10124; Add or change pages</button></button>
         <div class="panel">
           <p></p>
         </div>

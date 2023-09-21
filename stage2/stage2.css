@@ -230,7 +230,27 @@ a{
 	text-decoration: none;
 	font-weight: normal;
 }
-
+table{
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.1em;
+	text-align: left;
+    line-height: 1.6;
+    color: black;
+	border: 1px solid;
+	width: 100%;
+}
+td{
+	border: 1px solid;
+	height: 30px;
+	padding: 5px;
+}
+tr{
+	border: 1px solid;
+	height: 30px;
+	padding: 5px;
+}
 a:hover{
 	color:black;
 	background: white;
