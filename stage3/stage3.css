@@ -138,6 +138,16 @@ h2 {
     color: black;
 }
 
+h3 {
+	font-family: helvetica, sans-serif;
+	font-weight: 320;
+	font-style: italic;	
+	font-size: 1.3em;
+	text-align: left;
+    line-height: 1.6;
+    color: black;
+}
+
 p {
 	font-family: helvetica, sans-serif;
 	font-weight: 200;
