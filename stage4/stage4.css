@@ -132,8 +132,8 @@ h2 {
 	font-family: helvetica, sans-serif;
 	font-weight: 320;
 	font-style: italic;	
-	font-size: 1.5em;
-	text-align: left;
+	font-size: 1.2em;
+	text-align: center;
     line-height: 1.6;
     color: black;
 }
@@ -154,10 +154,9 @@ p {
 
 code {
 	font-family: Consolas,"courier new";
-	color: black;
-	border: #333;
+	color: white;
 	/* background-color: #3498db; */
-	padding: 3px;
+	padding: 0;
 	font-size: 100%;
 }
 
@@ -200,6 +199,14 @@ code {
 	overflow: hidden;
 	padding: 16px 20px;
 }
+.box{
+	width: 350px;
+	background-color: #929BA2;
+	border: 2px dotted #3498db;
+	padding: 5px;
+	margin: 5px;
+}
+
 nav{
 	font-family: helvetica, sans-serif;
 	font-weight: 500;
