@@ -65,6 +65,14 @@
                 <td>what should happen if content overflows in an element's box</td>
                 <td>visible, hidden</td>
               </tr>
+              <td>border</td>
+              <td>sets the type of border</td>
+              <td>solid, dashed, dotted, etc.</td>
+            </tr>
+            <td>border-width</td>
+            <td>sets the width or weight of a border</td>
+            <td>px/em or percentage</td>
+          </tr>
             </table><br><br>
               <h2>COLOR</h2><br>
             <table>
@@ -183,25 +191,74 @@
         <div class="panel">
           <p>Fonts play a large role in the overall visual appeal of a website. A great web font should be readable and web-safe. Web-safe fonts are fonts that come pre-installed across all operating systems. Most 
             popular examples of web-safe fonts include Arial, Times New Roman, and Helvetica. This website uses Helvetica (sans-serif) as the universal font. <br><br>
-
-
-          </p>
-        </div>
+            1. Go to the <a href="https://www.w3.org/Style/Examples/007/fonts.en.html">W3C website</a> with the comprehensive list of web-safe fonts.<br>
+            2. Browse the different font families and take note of your favorite ones. <br>
+            3. Open the <span class="italic">style.css</span> file and navigate to your h1 element.<br><br>
+            4. The current value in the stylesheet for all fonts is helvetica, sans-serif. Change the font-family property’s value for h1 to the font-family you chose from the W3C website. <br>
+            <div class ="noteb">&#8505;&#65039; Try out different fonts and view how they look on your local machine! </div><br><br>
+            <p>5. Repeat the previous step with the h2, p, nav, a, and topnav elements in <span class="italic">style.css.</span><br>
+            <div class ="noter">&#9888;&#65039; Your fonts for different elements don’t all have to be the same, but it’s a good idea to stay in the same generic font (ie: monospace, sans-serif, etc.). This will ensure consistency in typography and good design.</div><br><br>
+            <p>6. Save your changes by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or the <span class="bolded">Cmd</span> + <span class="bolded">S</span> keyboard shortcut. Then push and commit your changes to GitHub.
+            <br><br></p></p></div>
 
         <button class="accordion">&#10124; Change the text</button>
         <div class="panel">
-          <p></p>
-        </div>
+          <p>Let’s experiment with changing the text. You can change the text size, style, and weight. You can also change the text color, but we’ll do that in the next section. The CSS elements that have text in your <span class="italic">style.css</span> file are: h1, h2, p, hav, and topnav.<br><br>
+            1. First, open one of your HTML files to view it on your local system. Notice the things 
+            you like about how the text is styled, and what you don’t. It’s your website, so making 
+            changes to the style is totally up to you. Feel free to leave the CSS file unedited if you 
+            like how it looks now. <br><br>
+            2. Go to the h1 element on line 123 in the <span class="italic">style.css</span> file. Change the font-weight property’s value on line 125 to make the text heavier or lighter. For example, if you increase the value to 600, the h1 will be a lot bolder. <br><br>
+            <span class="italic">300 weight h1:</span><br>
+            <img src="../stage3/stage3-media/300px.png" alt="300 weight text" style="width:20%"><br>
+            <span class="italic">600 weight h1:</span><br>
+            <img src="../stage3/stage3-media/600px.png" alt="600 weight text" style="width:20%"><br><br>
+            3. On line 126, the font-style property is used to make the font bold or italic. Change the value if you’d like. <br>
+            <div class ="noteb">&#8505;&#65039; Even if the font-style property is set to bold, you can use the font-weight property to make it even heavier. </div><br><br>
+            <p>4. On line 126, increase or decrease the font-size property value, if you’d like.
+            <div class ="noteb">&#8505;&#65039; “em” is a unit of measurement, relative to the size of the font. 1 em = 16 px.</div><br><br>
+            <p>5. Repeat steps 1-4 for the h2, p, nav, and topnav properties. <br>
+            <div class ="noter">&#9888;&#65039; Keep in mind that the h1 element should always be bigger and more prominent than the h2 element, and the h2 element should be bigger and more prominent than the p element. (h1 > h2 > p)</div><br><br>
+            <p>6. Save your changes by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or the <span class="bolded">Cmd</span> + <span class="bolded">S</span> keyboard shortcut. Then push and commit your changes to GitHub.<br><br>
+          </p></p></div>
 
         <button class="accordion">&#10125; Change the colors</button>
         <div class="panel">
-          <p></p>
-        </div>
+          <p>There are many elements in the <span class="italic">style.css</span> file that have color: text, link boxes, borders, the navigation bar, the center div, and the background. <br><br>
+            The property for color in CSS is simply called, “color.” Refer to this <a href="https://htmlcolorcodes.com/">HTML Color Codes website</a> to obtain the hexadecimal value of a font. The hex is usually a pound sign (#) followed by a series of 6 numbers and letters. <br>
+            <img src="../stage3/stage3-media/hexcolor.png" alt="hex color" style="width:50%"><br><br>
+            1. There are many things we can edit with color, but let’s start with the center div (where the main body of your content lives). In the <span class="italic">style.css</span> file, go to line 97 where the background property is. The current value is #ffffff, which is white. Change this color to a different hex value of your choosing, from the HTML Color Codes website. <br>
+            <div class ="noteb">&#8505;&#65039; Don’t forget to save and view this small change on your local machine to make sure you like the color!</div><br><br>
+            <p>2. On line 98, a property called opacity controls the transparency of the color. As of now, this value is set to .65. This is the same as saying 65%. Change this value to 100% and view the change on your local machine. The color of the center div should appear much more solidified. <br><br>
+            3. Change the opacity value of the center div back to .65, or whatever value of your choosing. <br>
+            <div class ="noter">&#9888;&#65039; It's best practice to have a dark-colored font with a light-colored background. For example, if you have a black and opaque center div, it would be a good idea to change the text color to white (so you can clearly contrast them apart).</div><br><br>
+            <p>4. Continue experimenting with color and opacity within the other elements. Repeat the color-changing step with elements like h1, h2, p, topnav, a, and more. The comments in the style.css file will guide you about what each element does.<br><br>
+              5. Save your changes by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or the <span class="bolded">Cmd</span> + <span class="bolded">S</span> keyboard shortcut. Then push and commit your changes to GitHub.<br><br>
+            </p></p></p></div>
 
-        <button class="accordion">&#10126; Change the link box</button>
+        <button class="accordion">&#10126; Experiment with layouts</button>
         <div class="panel">
-          <p></p>
-        </div>
+          <p>Some layout properties include padding, margin, and borders (refer back to the prerequisite in this section: <span class="bolded">Elements, properties, and values</span>). <br><br>
+            1. Let’s start experimenting with layouts with our top navigation bar. Here’s what it’s layout should look like, as of now: <br>
+            <img src="../stage3/stage3-media/ognav.png" alt="original nav bar"><br><br>
+            Go to line 178, where the .topnav class element lives in the <span class="italic">style.css</span> file. Add the following two lines of code after the overflow property:<br><code>border: solid black;<br>border-width: 1px;</code><br><br>
+            Now the element should have 4 properties.<br>
+            <div class ="noteb">&#8505;&#65039; Although you could add a separate property for border-color, the border property accepts two arguments (type and color), so we can just tag it on to the solid value.</div><br><br>
+            <p>Save and view the change on your local device. We just added a solid border around the navigation bar. You should see something like this: <br>
+              <img src="../stage3/stage3-media/1nav.png" alt="nav with border"><br><br>
+              2. Go to the .topnav a element (style the links inside the top navigation bar). Add the same two lines from the previous step to this element, right after font-size (border and border-width).<br><br>
+              Save and view the change on your local device. We just added borders around each link in the top navigation bar. You should see something like this: <br>
+              <img src="../stage3/stage3-media/2nav.png" alt="nav buttons with border"><br><br>
+              3. In the same .topnav a element, decrease the padding property from <code>17px 17px </code>to <code>8px 8px.</code><br><br>
+              Save and view the change on your local device. This is decreasing the amount of space between the text and the border. You should see something like this: <br>
+              <img src="../stage3/stage3-media/3nav.png" alt="reduce padding"><br><br>
+              4. In the same .topnav a element, add a new margin property after the border-width property that you added. Copy and paste this line of code into the element:<br>
+              <code>margin: 4px;</code><br><br>
+              Save and view the change on your local device. This added a margin between the button and the actual navigation bar. You should see something like this: <br>
+              <img src="../stage3/stage3-media/4nav.png" alt="add nav button margin"><br><br>
+              5. Revert or keep the changes in this section, depending on your preferences. Now that you’ve experimented with different layout properties, feel free to add or change some of your other elements. It’s up to you!<br><br>
+              6. Save your changes by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or the <span class="bolded">Cmd</span> + <span class="bolded">S</span> keyboard shortcut. Then push and commit your changes to GitHub.<br><br>
+              </p></p></div>
 
         <!-- <a href=""></a>  
         <img src="" alt="" style="width:75%"><br></br>
