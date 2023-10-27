@@ -157,7 +157,7 @@ h1 {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #3498db; }
+  10% { border-color: #3498db; }
 }
 
 h2 {
