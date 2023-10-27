@@ -105,8 +105,8 @@ html, body {
     width: 850px;
 	padding: 2%;
     margin: 100px auto;
- 	/* background: #ffffff;
-	opacity: .65; */
+	background: #ffffff;
+	opacity: 100%;
 	text-align: left;
 }
 
@@ -146,6 +146,31 @@ p {
 	text-align: left;
     line-height: 1.6;
     color: black;
+}
+
+footer p{
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.1em;
+	text-align: left;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+footer a{
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.1em;
+	text-align: left;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+html{
+	background: linear-gradient(white, white, white, rgba(20.4, 59.6, 89.9, 0.4));
+	background-attachment: fixed;
 }
 
 .bolded { font-weight: bold; }
