@@ -221,7 +221,7 @@ html{
 
 code {
 	font-family: Consolas,"courier new";
-	color: white;
+	color: black;
 	/* background-color: #3498db; */
 	padding: 0;
 	font-size: 100%;
@@ -268,8 +268,8 @@ code {
 }
 .box{
 	width: 350px;
-	background-color: #929BA2;
-	border: 2px dotted #3498db;
+	background-color: #d3d3d3;
+	border: 1px solid black;
 	padding: 5px;
 	margin: 5px;
 }
@@ -325,6 +325,14 @@ tr{
 	height: 30px;
 	padding: 5px;
 }
+th{
+	border: 1px solid black;
+	height: 30px;
+	padding: 5px;
+	background-color: #3498db;
+	color: white;
+}
+
 a:hover{
 	color:black;
 	background: white;

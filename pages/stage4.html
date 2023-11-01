@@ -25,7 +25,7 @@
         <p><span class="bolded">Enhance</span> is the optional stage in this tutorial. Once you have completed stages 1-3, you know how to implement HTML and CSS. However, there are some fancier elements you can add that will elevate your website. The following sections demonstrate just a few options to enhance 
         your portfolio site.</p><br><hr><br>
 
-        <button class="accordion">&#9734; Add icons to the top nav</button>
+        <button class="accordion">&#9734; Icons and emojis</button>
         <div class="panel">
           <p>
             <div class="row">
@@ -47,12 +47,86 @@
 
         <button class="accordion">&#9734; Tables</button>
         <div class="panel">
-          <p></p>
-        </div>
-
-        <button class="accordion">&#9734; Accordions</button>
-        <div class="panel">
-          <p></p>
+          <p>
+            <table>
+              <tr>
+                <th>Class</th>
+                <th>Term</th>
+                <th>Grade</th>
+              </tr>
+              <tr>
+                <td>Computer Science</td>
+                <td>Fall 2022</td>
+                <td>B+</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>Winter 2021</td>
+                <td>A-</td>
+              </tr>
+            </table>
+            <div class="row">
+              <div class="column">
+                <h3>HTML code:</h3>
+                <div class="box">
+                  <code>
+                    &lt;table><br>
+                    &emsp;&lt;tr><br>
+                    &emsp;&emsp;&lt;th>Class&lt;/th><br>
+                    &emsp;&emsp;&lt;th>Term&lt;/th><br>
+                    &emsp;&emsp;&lt;th>Grade&lt;/th><br>
+                    &emsp;&lt;/tr><br>
+                    &emsp;&lt;tr><br>
+                    &emsp;&emsp;&lt;td>Computer Science&lt;/td><br>
+                    &emsp;&emsp;&lt;td>Fall 2022&lt;/td><br>
+                    &emsp;&emsp;&lt;td>B+&lt;/td><br>
+                    &emsp;&lt;/tr><br>
+                    &emsp;&lt;tr><br>
+                    &emsp;&emsp;&lt;td>English&lt;/td><br>
+                    &emsp;&emsp;&lt;td>Winter 2021&lt;td><br>
+                    &emsp;&emsp;&lt;td>A-&lt;/td><br>
+                    &emsp;&lt;/tr><br>
+                    &lt;/table>
+                  </code>
+                </div>
+                </div>
+                <div class="column">
+                    <h3>CSS code:</h3>
+                    <div class="box">
+                    <code>
+                      table{ <br>
+                        &emsp;font-family: helvetica;<br>
+                        &emsp;font-weight: 200;<br>
+                        &emsp;font-style: normal;	<br>
+                        &emsp;font-size: 1.1em;<br>
+                        &emsp;text-align: left;<br>
+                        &emsp;line-height: 1.6;<br>
+                        &emsp;color: black;<br>
+                        &emsp;border: 1px solid;<br>
+                        &emsp;width: 100%;<br>
+                      }<br>
+                      td{<br>
+                        &emsp;border: 1px solid;<br>
+                        &emsp;height: 30px;<br>
+                        &emsp;padding: 5px;<br>
+                      }<br>
+                      tr{<br>
+                        &emsp;border: 1px solid;<br>
+                        &emsp;height: 30px;<br>
+                        &emsp;padding: 5px;<br>
+                      }<br>
+                      th{<br>
+                        &emsp;border: 1px solid black;<br>
+                        &emsp;height: 30px;<br>
+                        &emsp;padding: 5px;<br>
+                        &emsp;background-color: #3498db;<br>
+                        &emsp;color: white;<br>
+                      }<br>
+                    </code>
+                  </div>
+                  </div>
+                </div>
+          </p>
         </div>
 
         <button class="accordion">&#9734; Slideshow gallery</button>
@@ -74,6 +148,12 @@
         <div class="panel">
           <p></p>
         </div>
+
+        <button class="accordion">&#9734; Footers</button>
+        <div class="panel">
+          <p></p>
+        </div>
+
         <br>
       </div>
 

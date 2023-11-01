@@ -318,6 +318,13 @@ tr{
 	height: 30px;
 	padding: 5px;
 }
+th{
+	border: 1px solid black;
+	height: 30px;
+	padding: 5px;
+	background-color: #3498db;
+	color: white;
+}
 a:hover{
 	color:black;
 	background: white;
