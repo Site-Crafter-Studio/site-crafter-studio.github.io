@@ -132,9 +132,50 @@
           </p>
         </div>
 
-        <button class="accordion">&#9734; Slideshow gallery</button>
+        <button class="accordion">&#9734; Scrollable image gallery</button>
         <div class="panel">
-          <p></p>
+          <p>Responsive image galleries can be an effective and interactive way to display multiple images on the same page. Here's an example, using three stock images, courtesy of <a href="https://www.pexels.com/search/landscape/">Pexels.com</a>:<br><br>
+            <div class="scroll-container">
+              <img src="../stage4/stage4-media/img1.jpg" alt="Mountains">
+              <img src="../stage4/stage4-media/img2.jpg" alt="Lake">
+              <img src="../stage4/stage4-media/img3.jpg" alt="Sky">
+            </div><br>
+            <p>This gallery only has three images, but feel free to add as many as you'd like. Copy and paste the following code to add a scrollable image gallery into your website: <br></p><br>
+            <div class="row">
+              <div class="column">
+                <h3>HTML code:</h3>
+                <div class="box">
+                  <code>
+                    &lt;div class="scroll-container"><br>
+                    &emsp;&lt;img src="" alt=""><br>
+                    &emsp;&lt;img src="" alt=""><br>
+                    &emsp;&lt;img src="" alt=""><br>
+                    &emsp;&lt;img src="" alt=""><br>
+                    &lt;/div>
+                  </code>
+                </div>
+              </div>
+              <div class="column">
+                <h3>CSS code:</h3>
+                <div class="box">
+                  <code>
+                    div.scroll-container {<br>
+                      &emsp;background-color: #333;<br>
+                      &emsp;overflow: auto;<br>
+                      &emsp;white-space: nowrap;<br>
+                      &emsp;padding: 10px;<br>
+                    }<br>
+                    div.scroll-container img {<br>
+                      &emsp;padding: 10px;<br>
+                      &emsp;width: 100%<br>
+                    }
+                  </code>
+                </div>
+              </div>
+            </div><br>
+            <p>Add in the correct values in the HTML image tags for the <code>src</code> and <code>alt</code> attributes.</p><br>
+            <div class ="noteb">&#8505;&#65039; Remember the <code>src</code> attribute should reference the path where the image is located. For example, if the image is in your <span class="italic">index.media</span> folder, the path would be something like "<code>index/index.media/{imagename}.png"</code>. And the <code>alt</code> attribute stands for alternative text.</div><br>
+          </p>
         </div>
 
         <button class="accordion">&#9734; Social media buttons</button>
