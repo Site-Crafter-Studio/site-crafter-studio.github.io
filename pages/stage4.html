@@ -25,23 +25,27 @@
         <p><span class="bolded">Enhance</span> is the optional stage in this tutorial. Once you have completed stages 1-3, you know how to implement HTML and CSS. However, there are some fancier elements you can add that will elevate your website. The following sections demonstrate just a few options to enhance 
         your portfolio site.</p><br><hr><br>
 
-        <button class="accordion">&#9734; Icons and emojis</button>
+        <button class="accordion">&#9734; Icons</button>
         <div class="panel">
-          <p>
-            <div class="row">
-              <div class="column">
-                <h3>HTML code:</h3>
-                <div class="box">
-                  <code></code>
-                </div>
-              </div>
-              <div class="column">
-                <h3>CSS code:</h3>
-                <div class="box">
-                  <code></code>
-                </div>
-              </div>
-            </div>
+          <p>Icons make it easier to navigate to different pages or sections. For example, this website uses icons in the top navigation bars to demonstrate what each stage entails. In order to start using icons, follow the instructions to sign up for Font Awesome. <br><br>
+            <h2>Font Awesome installation:</h2><br>
+            <p>1. Go to <a href="https://fontawesome.com/">fontawesome.com</a> and click <span class="bolded">Start for Free</span>.<br>
+            2. Enter your email address, agree to the Terms of Service, and click <span class="bolded">Send Kit Embed Code</span>. <br>
+            3. Check your email inbox and click the button that says <span class="bolded">Finish Setting Up Your Account</span>. <br>
+            4. Enter your new password and click <span class="bolded">Set Password & Continue</span>.<br>
+            5. Finish the rest of the questions about your information and click <span class="bolded">Let's go!</span>. <br>
+            6. Click the button that says <span class="bolded">Set up icons in a project with 1 line of code</span>. Copy this line of code and add it to your<code>&lt;header></code> section of the desired HTML file you're working in: <br><br>
+            <code>&lt;script src="https://kit.fontawesome.com/fd8c9ffdf6.js" crossorigin="anonymous">&lt;/script></code><br><br>
+            Now you can use all of Font Awesome's icons! Let's start implementing some. <br><br>
+            <h2>Implementing icons:</h2><br>
+            <p>1. From the main menu, click <span class="bolded">Icons</span>.<br>
+              2. In the search bar, enter "Person." A few options show up, but let's select the first one (the free version, not denoted "PRO"). <br>
+              <img src="../stage4/stage4-media/icon.jpeg" alt="person-icon"></img><br>
+              <div class ="noteb">&#8505;&#65039; Notice that you can change the style of the icon: regular, light, duotone, bold, or thin. You can also add an animation, change it's size, rotation, or color. </div><br><br>
+              <p>3. Once you have the desired style of your icon figured out, copy the HTML code at the bottom of the screen. Here's what the code for a green person icon looks like:<br><br>
+                <img src="../stage4/stage4-media/greenicon.png" alt="green-icon-code" style="width:70%"></img><br><br>
+                4. Paste this icon with the opening and closing &lt;i> (icon) tags where you want it. Save the file you're working in and view the added icon locally. You can delete this now, if you'd like. <br><br>
+                Now you can start adding your own icons! <i class="fa-solid fa-person" style="color: #0c920e;"></i><br><br>
           </p>
         </div>
 
@@ -180,7 +184,45 @@
 
         <button class="accordion">&#9734; Social media buttons</button>
         <div class="panel">
-          <p></p>
+          <p>Adding buttons that bring users to you social media accounts can be a fun way to enhance your website and experiment with iconography. <br><br>
+            <div class ="noter">&#9888;&#65039; In order to add social media buttons to your site, complete the <span class="italic">Icons</span> section above. Font Awesome installation and implementation practice is needed to proceed with this section.</div><br><br>
+            <p>
+            <a href="" class="btn"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>&nbsp;&nbsp;<span class="bolded">square</span><br><br>
+            <a href="" class="btn1"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>&nbsp;&nbsp;<span class="bolded">rounded corners</span><br><br>
+            <a href="" class="btn2"><i class="fab fa-linkedin" style="color: #ffffff;"></i></a>&nbsp;&nbsp;<span class="bolded">circle</span><br><br>
+          <p>You can create different types of buttons: squares (or rectangles), rounded corners, and circles. Luckily, Font Awesome has a ton of social media logo icons for us to use! Let's use <a href="https://fontawesome.com/icons/linkedin?f=brands&s=solid">LinkedIn</a> as an example. Copy and past the following code into your HTML and CSS files to add a social media button: <br><br>
+          <div class="row">
+            <div class="column">
+              <h3>HTML code:</h3>
+              <div class="box">
+                <code>
+                  &lt;a href="" class="btn">&lt;i class="fab fa-linkedin" style="color: #ffffff;">&lt;/i>&lt;/a>
+                </code>
+              </div>
+            </div>
+            <div class="column">
+              <h3>CSS code:</h3>
+              <div class="box">
+                <code>
+                  .btn {<br>
+                    &emsp;background-color: #3498db;<br>
+                    &emsp;border: none;<br>
+                    &emsp;color: white;<br>
+                    &emsp;padding: 12px 16px;<br>
+                    &emsp;font-size: 16px;<br>
+                    &emsp;cursor: pointer;<br>
+                    &emsp;border-radius: 0%; /* 30 or 50 */<br>
+                  }<br>
+                  .btn:hover {<br>
+                    &emsp;background-color: #0703d0;<br>
+                  }
+                </code>
+              </div>
+            </div>
+          </div><br><br>
+          <p>For the <code>href</code> property in the link, copy and paste the URL of your LinkedIn account between the quotations. In addition, feel free to change the colors in the CSS to whatever you'd like. There is one color for the button itself (blue), and another color for when you hover over a button (darker blue).</p> <br><br>
+          <div class ="noteb">&#8505;&#65039; Don't forget to change the <code>border-radius</code> property to 30 (rounded corners) or 50 (circle), if you'd like. <br><br>
+            And make sure to swap out the entire opening and closing &lt;i> (icon) tag when you choose a different social media icon!</div><br><br>
         </div>
 
         <button class="accordion">&#9734; Contact form</button>
