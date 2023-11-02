@@ -242,8 +242,53 @@
 
         <button class="accordion">&#9734; Footers</button>
         <div class="panel">
-          <p>
-
+          <p>Footers usually contain important infomation like a copyright notice, contact information, logo, and more. Add a footer to your website to improve it's overall usability!<br><br>
+            Copy and paste the following code to add a footer:<br><br>
+            <div class="row">
+              <div class="column">
+                <h3>HTML code:</h3>
+                <div class="box">
+                  <code>
+                    &lt;footer><br><br>
+                    &lt;p class="text-center">Author: {name} | {date} | &lt;a class="footer-a" href="mailto:{email-address}">Contact&lt;/a>&lt;/p><br><br>
+                    &lt;/footer>
+                  </code>
+                </div>
+              </div>
+              <div class="column">
+                <h3>CSS code:</h3>
+                <div class="box">
+                  <code>
+                    .text-center {<br>
+                      &emsp;text-align: center;<br>
+                      &emsp;color: white;<br>
+                      }<br>
+                      &emsp;.foot {<br>
+                      &emsp;text-align: center;<br>
+                      &emsp;font-family: helvetica, sans-serif;<br>
+                      &emsp;font-weight: 200;<br>
+                      &emsp;font-style: normal;	<br>
+                      &emsp;font-size: 1.0em;<br>
+                      &emsp;line-height: 1.6;<br>
+                      &emsp;color: white;<br>
+                      }<br>
+                      .foot:hover {<br>
+                        &emsp;text-align: center; <br>
+                        &emsp;font-family: helvetica, sans-serif;<br>
+                        &emsp;font-weight: 200;<br>
+                        &emsp;font-style: normal;	<br>
+                        &emsp;font-size: 1.0em;<br>
+                        &emsp;line-height: 1.6;<br>
+                        &emsp;color: #3498db;<br>
+                        &emsp;background-color: transparent;<br>
+                      }
+                  </code>
+                </div>
+              </div>
+            </div><br><br>
+            <p>In the CSS code, the <code>.foot</code> class styles the paragraph and link elements inside of the footer. The <code>.foot hover</code> tag styles what the "Contact" link looks like when it's hovered over. <br><br>
+              The <code>&lt;footer></code> tag should go at the end of your HTML files, just before the closing <code>&lt;/body></code> tag.</p><br><br>
+            <div class ="noteb">&#8505;&#65039; Make sure to add the footer to all of your HTML files on your website!</div>
           </p>
         </div>
 
