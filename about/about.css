@@ -180,26 +180,6 @@ p {
     color: black;
 }
 
-footer p{
-	font-family: helvetica, sans-serif;
-	font-weight: 200;
-	font-style: normal;	
-	font-size: 1.1em;
-	text-align: left;
-    line-height: 1.6;
-    color: #ffffff;
-}
-
-footer a{
-	font-family: helvetica, sans-serif;
-	font-weight: 200;
-	font-style: normal;	
-	font-size: 1.1em;
-	text-align: left;
-    line-height: 1.6;
-    color: #ffffff;
-}
-
 html{
 	background: linear-gradient(white, white, white, rgba(20.4, 59.6, 89.9, 0.4));
 	background-attachment: fixed;
@@ -387,4 +367,30 @@ a:hover{
   
   .active:after {
 	content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .text-center {
+	text-align: center;
+	color: white;
+  }
+
+  .foot {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.0em;
+    line-height: 1.6;
+	color: white;
+  }
+
+  .foot:hover {
+	text-align: center; 
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.0em;
+    line-height: 1.6;
+	color: #3498db;
+	background-color: transparent;
   }
