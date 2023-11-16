@@ -118,9 +118,9 @@
             2. Open the index folder, then double click on the index.html file to open it on your web browser. You should see your index page.<br>
             <div class ="noteb">&#8505;&#65039; Since you are viewing it locally, none of the links will function. This purely lets you view simple changes quickly.</div><br></br>
             <p>3. Open VSCode and replace line 32 to the following: <code>&lt;h2&gt;About&lt;/h2&gt;</code><br></br>
-            4. Go back to your browser with the index.html file opened locally. Refresh the page. 
-            Screenshot of About page. <br>
-            <div class ="noteg">&#127881; If you see “About” instead of “About Me,” congratulations! You have learned how to view changes on your local system. </div><br></br>
+            4. Go back to your browser with the index.html file opened locally. Refresh the page. <br>
+            <div class ="noteg">&#127881; If you see “About” instead of “About Me,” congratulations! You have learned how to view changes on your local system. </div><br>
+            <img src="../stage2/stage2-media/aboutupdate.png" alt="rename about" style="width:60%"><br><br><br>
             <p>Despite this easy workaround waiting for GitHub pages to load in order to view updates, you should still push and commit your changes to GitHub regularly. This ensures version control and management with your website files. For a refresh on how to push and commit changes to GitHub, visit the “Push an update to GitHub” section in the <span class="bolded">Set Up</span> stage.
           </p>
         </div><br><br>
@@ -133,7 +133,7 @@
             1. Right click on the page1 folder in the Explorer menu in VSCode. Rename the folder to your topic of choice. This depends on what type of work you will be showcasing on your website.<br>
             For example: school-projects, photography, visual-art, etc.<br>
             <div class ="noter">&#9888;&#65039; When working with code, it is best practice to use all lowercase letters in file naming. Do not use spaces. Instead, use dashes or underscores: <code>schoolprojects</code>, <code>school-projects</code>, or <code>school_projects</code>. </div><br>
-            <img src="../stage2/stage2-media/rename.png" alt="rename" style="width:35%"><br></br>
+            <img src="../stage2/stage2-media/rename.png" alt="rename" style="width:35%"><br><br><br>
             <p>2. Expand the folder that you just renamed and repeat the renaming process for the three items it contains. For example, if you renamed the page1 folder to “projects,” the new names of the items in that folder would be: projects.html and projects.media.<br></br>
               <img src="../stage2/stage2-media/renamefolder.png" alt="rename folder" style="width:25%"><br></br>
             3. Click the HTML file in your newly renamed folder to enter into editing mode. Find and replace every "page1" in the HTML file with the new topic you chose. There should be a total of 12 instances of "page1" or "Page 1" in the HTML file.<br>
@@ -146,7 +146,7 @@
 
         <button class="accordion">&#10123; Add pages</button></button>
         <div class="panel">
-          <p>This section is optional. If you would only like 3 pages on your website (index, page1 equivalent, and page2 equivalent), then skip this section. If you would like to have more than 3 pages, then keep reading. Feel free to revisit this step later on if you change your mind about adding more pages to your website. <br></br>
+          <p><span class="bolded">This section is optional.</span> If you would only like 3 pages on your website (index, page1 equivalent, and page2 equivalent), then skip this section. If you would like to have more than 3 pages, then keep reading. Feel free to revisit this step later on if you change your mind about adding more pages to your website. <br></br>
             1. Right click on your page1 equivalent folder in the Explorer menu in VSCode. Select <span class="bolded">Duplicate</span>.<br></br>
             2. Repeat steps 1-4 in the previous section to the duplicate folder in your project. Rename everything in the folder and the HTML file to the topic of your choosing.<br></br>
             3. Notice the &lt;div&gt; from line 11-15 in any of the HTML files. The “class” or type of &lt;div&gt; is “topnav.” This represents items in the top navigation bar of your website.<br></br>
@@ -166,10 +166,11 @@
             2. In the “topnav” class for the navigation menu from lines 11-15, make sure you have included the pages you changed or added. On line 12, feel free to change “About” about to something like “Home.” This is your website, so it’s totally up to you. <br>Ex: <code>&lt;a class="active" href="#home"&gt;Home&lt;/a&gt;</code> <br></br>
             Then change all of the {your-username} fields in the links to your actual GitHub username. <br></br>
             3. The main div section starts on line 17. This is a divider called “center,” which keeps all of your content fixed, and centered in the middle of the page. On line 18, change the header 1 value from “Your Name” to your actual name.<br>Ex: <code>&lt;h1&gt;John Doe&lt;/h1&gt;</code><br></br>
-            4. The “nav” section from lines 19-30 represents a block of links. As of now, it includes a link to your GitHub account, your LinkedIn account, your email address, and your resume. <br>
+            4. The “nav” section from lines 20-30 represents a block of links. As of now, it includes a link to your GitHub account, your LinkedIn account, your email address, and your resume. <br>
             <img src="../stage2/stage2-media/indexlinks.png" alt="index links" style="width:90%"><br>
-            Replace all of the fields surrounded by curly brackets with your own information. For example, <code>“mailto:johndoe@gmail.com”</code> (removing the curly brackets). <br></br>
-            5. On line 32 you can see the first header2 value. As of now, it reads “About,” but feel free to change this to whatever you’d like. For example: About Me, Who Am I?, etc.<br></br>
+            Replace all of the fields surrounded by curly brackets with your own information. For example, <code>“mailto:johndoe@gmail.com”</code> (removing the curly brackets). <br>
+            <div class="noter">&#9888;&#65039; Replace the <span class="italic">placeholder-resume.pdf</span> file with a PDF of your own resume! </div> <br><br>
+            <p>5. On line 32 you can see the first header2 value. As of now, it reads “About,” but feel free to change this to whatever you’d like. For example: About Me, Who Am I?, etc.<br></br>
             6. On line 33, the first paragraph value starts. This is just filled with some sample text, so delete everything between &lt;p&gt; and &lt;/p&gt;. Now write your own paragraph that introduces yourself.<br>
             <div class ="noteb">&#8505;&#65039; If you want to skip a line use &lt;br&gt; to skip a single line. Use the same tag twice if you want to skip two lines. </div><br></br>
             <p>7. Save your changes by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or the <span class="bolded">Cmd</span> + <span class="bolded">S</span> keyboard shortcut. Then push and commit your changes to GitHub.<br></br>
@@ -179,14 +180,14 @@
         <button class="accordion">&#10125; Edit more pages</button></button>
         <div class="panel">
           <p>Now that the index page has your own information, let's customize the rest of the HTML files.<br></br>
-            1. Open any one of the HTML files that are not the index file that we just edited. <br></br>
+            1. Open any one of the HTML files that are <span class="bolded">not</span> the index file that we just edited. <br></br>
             2. In the “topnav” class for the navigation menu from lines 11-15, make sure you have included the pages you changed or added. Change all of the {your-username} fields in the links to your actual GitHub username (removing the curly brackets).<br></br>
-            3. The header1 value lives on line 19. This is the main title of your page. Right below this line of code, there is some placeholder paragraph text. Delete everything between &lt;p&gt; and &lt;/p&gt; and replace it with a description of what the page will be about. For example, if my page was called “School Projects,” the description of the page might be: The following projects were completed during my time as an undergraduate student at Cal Poly San Luis Obispo.” <br></br>
-            Repeat this step with the first header2 value and the second paragraph value on lines 22 and 23. This header2 will be the first topic of your page. For example, if my page was titled Projects, the header2 value might be something like, “Computer Science 101 Project.”<br></br>
+            3. The header1 value is the main title of your page. Right below the h1 line of code, there is some placeholder paragraph text. Delete everything between &lt;p&gt; and &lt;/p&gt; and replace it with a description of what the page will be about. For example, if my page was called “School Projects,” the description of the page might be: The following projects were completed during my time as an undergraduate student at Cal Poly San Luis Obispo.” <br></br>
+            Repeat this step with the first h2 value and the second paragraph value on lines 22 and 23. This header2 will be the first topic of your page. For example, if my page was titled Projects, the header2 value might be something like, “Computer Science 101 Project.”<br></br>
             4. Besides the top navigation and the center divs, there are three other dividers you can use. These are: row (or columns), container1, and container2. <br></br>
             “row” (lines 25-35) represents a single row with 3 columns: <br>
             <img src="../stage2/stage2-media/row.png" alt="row div" style="width:50%"><br></br>
-            “container1” (lines 37-75) represents an image on the right, and text on the left that are inline: <br>
+            “container1” (lines 37-45) represents an image on the right, and text on the left that are inline: <br>
             <img src="../stage2/stage2-media/container1.png" alt="container1 div" style="width:70%"><br></br>
             “container2” (lines 47-55) represents text on the left, and an image on the right that are inline: <br>
             <img src="../stage2/stage2-media/container2.png" alt="container2 div" style="width:70%"><br></br>
