@@ -53,11 +53,12 @@
           8. Add a commit message, like “blank templates,” and click <span class="bolded">Commit changes</span>. <br>
           <img src="../stage1/stage1-media/firstcommitmsg.png" alt="commit msg" style="width:75%"><br></br></p><br></div>
 
-        <button class="accordion">&#10124; Install Visual Studio Code</button>
+        <button class="accordion">&#10124; Install Visual Studio Code and Git</button>
         <div class="panel">
         <p>Visual Studio Code allows coders to edit files and publish changes to a <span class="italic">github.io</span> site from the app.<br></br>
-          1. Go to <a href="https://code.visualstudio.com/download">Download Visual Studio Code</a> and install the correct version of Visual Studio Code (VSCode) for your system.<br>
-          <img src="../stage1/stage1-media/vscicon.png" alt="vscode app" style="width:16%"><br></p></div>
+          1. If you already have VSCode installed, then skip this step. Go to <a href="https://code.visualstudio.com/download">Download Visual Studio Code</a> and install the correct version of Visual Studio Code (VSCode) for your system.<br>
+          <img src="../stage1/stage1-media/vscicon.png" alt="vscode app" style="width:16%"><br><br></p>
+        <p>2. If you already have Git installed, then skip this step. Go to <a href="https://github.com/git-guides/install-git">Install Git</a> to install git on your system. To check if it has installed, run <code>git version</code> in your terminal.</p><br><br></div>
         
         <button class="accordion">&#10125; Clone the repository</button>
         <div class="panel">
@@ -74,7 +75,7 @@
           6. Go back to Visual Studio Code and click <span class="bolded">File</span> > <span class="bolded">Open</span>. Select the new folder (the clone of your repository) on your desktop. <br>
           <div class ="noteb">&#8505;&#65039; Now you should see the 3 folders (index, page1, and page2) and a <span class="italic">README.md</span> file in the Explorer menu on the left-hand side of the screen. The right-hand side of the screen is where you will be editing the files.</div><br></p></div></br>
 
-        <button class="accordion">&#10126; Push an update to GitHub</button>
+        <button class="accordion">&#10126; Commit and push an update to GitHub</button>
         <div class="panel">
         <p>As you make edits, it's important to push your changes to GitHub to keep your website up-to-date. The Source Control icon in the Activity Bar will show you the details of your current repository changes.<br></br>
           1. Open the <span class="bolded">README.md</span> file from the Explorer menu on the left-hand side of the screen.<br></br>
@@ -83,11 +84,14 @@
           <div class ="noteb">&#8505;&#65039; Your README file is written in Markdown. The Markdown syntax for adding a link is [text](hyperlink).</div><br><p></br>
           3. Save the file by clicking <span class="bolded">File</span> > <span class="bolded">Save</span> or <span class="bolded">cmd + S</span>.<br></br>
           4. Click on the <span class="bolded">Source Control</span> widget on the left-hand side of the screen. It will show that the README.md file has been changed. <br></br>
-          5. Add a commit message like “update readme,” and click the blue <span class="bolded">Commit</span> button.<br></br>
+          5. Add a commit message like “update readme,” and click the blue <span class="bolded">Commit</span> button.<br>
           <img src="../stage1/stage1-media/commitchanges.png" alt="commit" style="width:28%"><br></br>
+          <div class ="noter">&#9888;&#65039; If committing your updates through the Source Control menu ever lingers, try committing an update manually from the terminal instead. Copy and paste this line of code to commit an update from the terminal (without fail): <code>git commit -m "message-here"</code> (replace <span class="italic">message-here</span> with your commit message of choice).</div><br><br>
+          <p>
           6. Push the changes to your GitHub repository by clicking the blue <span class="bolded">&#8593;</span> button. Don’t worry about adding a message here.<br>
-          <div class ="noteb">&#8505;&#65039; "git commit" updates your changes locally. "git push" actually updates those local changes to your GitHub repository. "commit" must come before "push"!</div><br><p></br>
-          <img src="../stage1/stage1-media/pushchanges.png" alt="push" style="width:28%"><br></br>
+          <div class ="noteb">&#8505;&#65039; "git commit" updates your changes locally. "git push" actually updates those local changes to your GitHub repository. "commit" must come before "push"!</div><br><p>
+            <img src="../stage1/stage1-media/pushchanges.png" alt="push" style="width:28%"><br><br><p>
+          <div class ="noter">&#9888;&#65039; If pushing your updates through the Source Control menu ever lingers, try pushing an update manually from the terminal instead. Copy and paste this line of code to push an update from the terminal (without fail): <code>git push</code>.</div><br><br><p>
           7. Click <span class="bolded">OK, Don’t Show Again</span> if a popup window, like this, shows up: <br></br>
           <img src="../stage1/stage1-media/popup.png" alt="popup window" style="width:28%"><br></br>
           8. Go back to your repository’s home page on GitHub. You may need to refresh the page. <br>
